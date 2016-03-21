@@ -1,0 +1,90 @@
+﻿生成启动时间为 2015/7/14 13:54:37。
+     1>项目“C:\Users\Administrator\Documents\Research Project\deepnet-master\win\libeigenmat\libeigenmat.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\eigen-eigen" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBEIGENMAT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yc"stdafx.h" /Fp"Debug\libeigenmat.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\eigen-eigen" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBEIGENMAT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"Debug\libeigenmat.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\eigenmat\eigenmat.cpp ..\..\eigenmat\ziggurat.cpp
+         ziggurat.cpp
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\ziggurat.cpp(78): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\ziggurat.cpp(219): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\ziggurat.cpp(239): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\ziggurat.cpp(242): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\ziggurat.cpp(389): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         eigenmat.cpp
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(58): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(69): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(105): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(140): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(146): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(203): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(213): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(315): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(327): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(339): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(351): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(481): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(496): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(513): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(560): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(598): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(602): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(606): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(610): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(622): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(625): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(630): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(633): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(652): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(655): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(666): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(670): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(672): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(672): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(675): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(679): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(681): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(681): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(691): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(694): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(696): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(699): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(702): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(704): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(716): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(719): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(723): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(726): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(782): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(861): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(878): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(888): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(911): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(948): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(959): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1000): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1014): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1028): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1042): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1092): warning C4101: “res”: 未引用的局部变量
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1246): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1343): warning C4101: “source_offset”: 未引用的局部变量
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1343): warning C4101: “target_offset”: 未引用的局部变量
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1375): warning C4101: “source_offset”: 未引用的局部变量
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1375): warning C4101: “target_offset”: 未引用的局部变量
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1409): warning C4101: “source_offset”: 未引用的局部变量
+     1>c:\users\administrator\documents\research project\deepnet-master\eigenmat\eigenmat.cpp(1409): warning C4101: “target_offset”: 未引用的局部变量
+         正在生成代码...
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\eigen-eigen" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBEIGENMAT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\libeigenmat.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"eigenmat.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\libeigenmat.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\libeigenmat.lib" /MACHINE:X86 /DLL Debug\eigenmat.obj
+         Debug\ziggurat.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            正在创建库 ..\..\libeigenmat.lib 和对象 ..\..\libeigenmat.exp
+         libeigenmat.vcxproj -> C:\Users\Administrator\Documents\Research Project\deepnet-master\win\libeigenmat\..\..\libeigenmat.dll
+     1>已完成生成项目“C:\Users\Administrator\Documents\Research Project\deepnet-master\win\libeigenmat\libeigenmat.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.43

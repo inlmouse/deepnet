@@ -1,0 +1,32 @@
+﻿生成启动时间为 2015/7/14 14:17:28。
+     1>项目“C:\Users\Administrator\Documents\Research Project\deepnet-master\win\libcudamat_conv\libcudamat_conv.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Research Project\deepnet-master\Debug\libcudamat_conv.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Research Project\deepnet-master\Debug\libcudamat_conv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Research Project\deepnet-master\Debug\libcudamat_conv.lib" /MACHINE:X86 /DLL Debug\cudamat_conv.cu.obj
+         Debug\cudamat_conv_kernels.cu.obj
+         Debug\dllmain.obj
+         Debug\libcudamat_conv.obj
+         Debug\stdafx.obj
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 _cudaGetLastError@0，该符号在函数 "void __cdecl __getLastCudaError(char const *,char const *,int)" (?__getLastCudaError@@YAXPBD0H@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 _cudaGetLastError@0
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 _cudaGetErrorString@4，该符号在函数 "void __cdecl __getLastCudaError(char const *,char const *,int)" (?__getLastCudaError@@YAXPBD0H@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 _cudaGetErrorString@4
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 _cudaConfigureCall@32，该符号在函数 "void __cdecl convResponseNormUndo(struct cudamat *,struct cudamat *,struct cudamat *,struct cudamat *,struct cudamat *,int,int,float,float,float,float)" (?convResponseNormUndo@@YAXPAUcudamat@@0000HHMMMM@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 _cudaConfigureCall@32
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 _cudaSetupArgument@12，该符号在函数 "void __cdecl __device_stub__Z20filterActs_YxX_colorILi4ELi32ELi4ELi8ELi1ELb0ELb1EEvPfS0_S0_iiiiiiiiffb(float *,float *,float *,int,int,int,int,int,int,int,int,float,float,bool)" (?__device_stub__Z20filterActs_YxX_colorILi4ELi32ELi4ELi8ELi1ELb0ELb1EEvPfS0_S0_iiiiiiiiffb@@YAXPAM00HHHHHHHHMM_N@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 _cudaSetupArgument@12
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 _cudaFuncSetCacheConfig@8，该符号在函数 "enum cudaError __cdecl _GLOBAL__N__47_tmpxft_00001f30_00000000_5_cudamat_conv_cpp1_ii_cec8093d::cudaFuncSetCacheConfig<void __cdecl(float *,float *,float *,float *,float *,int,int,int,int,float,float,float)>(void (__cdecl*)(float *,float *,float *,float *,float *,int,int,int,int,float,float,float),enum cudaFuncCache)" (??$cudaFuncSetCacheConfig@$$A6AXPAM0000HHHHMMM@Z@_GLOBAL__N__47_tmpxft_00001f30_00000000_5_cudamat_conv_cpp1_ii_cec8093d@@YA?AW4cudaError@@P6AXPAM0000HHHHMMM@ZW4cudaFuncCache@@@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 _cudaFuncSetCacheConfig@8
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 _cudaLaunch@4，该符号在函数 "enum cudaError __cdecl _GLOBAL__N__47_tmpxft_00001f30_00000000_5_cudamat_conv_cpp1_ii_cec8093d::cudaLaunch<char>(char *)" (??$cudaLaunch@D@_GLOBAL__N__47_tmpxft_00001f30_00000000_5_cudamat_conv_cpp1_ii_cec8093d@@YA?AW4cudaError@@PAD@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 _cudaLaunch@4
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaRegisterFatBinary@4，该符号在函数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPAPAX@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 ___cudaRegisterFatBinary@4
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaUnregisterFatBinary@4，该符号在函数 "void __cdecl __cudaUnregisterBinaryUtil(void)" (?__cudaUnregisterBinaryUtil@@YAXXZ) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 ___cudaUnregisterFatBinary@4
+     1>cudamat_conv.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaRegisterFunction@40，该符号在函数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPAPAX@Z) 中被引用
+     1>cudamat_conv_kernels.cu.obj : error LNK2001: 无法解析的外部符号 ___cudaRegisterFunction@40
+     1>C:\Users\Administrator\Documents\Research Project\deepnet-master\Debug\libcudamat_conv.dll : fatal error LNK1120: 9 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator\Documents\Research Project\deepnet-master\win\libcudamat_conv\libcudamat_conv.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.06

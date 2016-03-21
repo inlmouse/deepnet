@@ -1,0 +1,13 @@
+optimizer: GRADIENT_DESCENT
+stopcondition {
+  all_processed: false
+  steps: 100000
+}
+train: true
+batchsize: 100
+data_proto: "D:\\test\\MNIST\\mnist.pbtxt"
+eval_after: 500
+checkpoint_after: 10000
+checkpoint_directory: "D:\\test\\outputRBM"
+randomize: true
+verbose: true
